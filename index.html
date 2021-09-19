@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html演習問題</title>
+</head>
+<body>
+  <h1>株式会社TECH</h1>
+  <ul>
+    <li><a href="#">ホーム</a></li>
+    <li><a href="#">企業情報</a></li>
+    <li><a href="#">会社概要</a></li>
+    <li><a href="#">よくある質問</a></li>
+    <li><a href="#">お問い合わせ</a></li>
+  </ul>
+  <img src="./img/mv.png" alt="会社写真">
+  <p>最新のテクノロジーで<em>社会課題</em>を解決</p>
+  <h2>会社概要</h2>
+  <table>
+    <tr>
+      <th>会社名</th><td>株式会社TECH</td>
+    </tr>
+    <tr>
+      <th>代表者</th><td>山田 太郎</td>
+    </tr>
+    <tr>
+      <th>所在地</th><td>東京都渋谷区神宮前</td>
+    </tr>
+    <tr>
+      <th>設立</th><td>2019/07/17</td>
+    </tr>
+    <tr>
+      <th>従業員数</th><td>100人</td>
+    </tr>
+    <tr>
+      <th>資本金</th><td>1000万円</td>
+    </tr>
+  </table>
+  <h2>お問い合わせ</h2>
+   <form action="detail.html" method="post">
+     <p><label for="company">
+       会社名<input type="text" name="company" id="company"
+     </label></p>
+     <p><label for="name">
+       お名前<input type="text" name="name" id="name">
+     </label></p>
+     <p><label for="mail">
+       メールアドレス<input type="email" name="mail" id="mail">
+     </label></p>
+     <p><label>
+       お問い合わせ内容<textarea name="お問い合わせ内容" cols="100" rows="10"></textarea>
+     </label></p>
+     <p><input type="submit" value="お申込み"></p>
+    </form>
+    <small>&copy;2020 TECH inc.</small>
+</body>
+</html>
